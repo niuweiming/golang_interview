@@ -27,5 +27,6 @@ func minPathSum(num [][]int) [][]int {
 			}
 		}
 	}
-	return num[len(num)-1][len(num[0])-1]
+	return [][]int{}
+	//return num[len(num)-1][len(num[0])-1]
 }
